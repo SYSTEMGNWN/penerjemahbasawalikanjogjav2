@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basa Walikan Jogja</title>
+    <meta name="description" content="Penerjemah basa Jawa ke basa walikan Jogja dan sebaliknya secara otomatis.">
+    <meta name="keywords" content="bahasa walikan, bahasa walikan jogja, basa walikan, ">
+    <meta name="robots" content="index, follow">
+    <link rel="stylesheet" href="gnwn.css">
+    <link href='favicon.png' rel='icon' type='image/x-icon' />
+</head>
+<body class="awak">
+    <div class="bungkus">
+        <h1>Penerjemah Basa Walikan Jogja</h1>
+        <div class="areaWalikan">
+            <label>Masukkan Kata atau Kalimat:</label>
+
+            <textarea class="kataWalikan" id="kata"></textarea>
+            
+            <label>Hasil Translate:</label>
+            <textarea class="hasilWalikan" readonly id="hasil"></textarea>
+        </div>
+        <div class="tombolWalikan">
+            <button id="salin">Salin</button>
+            <button id="hapus">Hapus</button>
+        </div></div>
+        <div id='hasilSalin'></div>
+    </div>
+    <script src="gnwn.js"></script>
+</body>
+<footer>
+    <div class="menu">
+        <div class="menu-header">
+            <h2 class="menu-header-title">Theme</h2>
+            <div class="theme-switcher">
+                <input type="radio" id="light-theme" name="themes" checked />
+                <label for="light-theme">
+                    <span>
+                        <i data-feather="sun"></i>Light
+                    </span>
+                </label>
+                <input type="radio" id="dark-theme" name="themes" />
+                <label for="dark-theme">
+                    <span>
+                        <i data-feather="moon"></i>Dark
+                    </span>
+                </label>
+                <input type="radio" id="black-theme" name="themes" />
+                <label for="black-theme">
+                    <span>
+                        <i data-feather="star"></i>Black
+                    </span>
+                </label>
+                <span class="slider"></span>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</html>
